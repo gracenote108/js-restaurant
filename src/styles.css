@@ -1,0 +1,108 @@
+@font-face {
+  font-family: cookie-regular;
+  src: url("./fonts/Cookie-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./images/donutbackground.jpg");
+  background-size: 50%;
+  display: flex;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-color: chocolate;
+  font-family: cookie-regular;
+  text-shadow: -2px 0 brown, 0 2px brown, 2px 0 brown, 0 -2px brown;
+  font-size: 150px;
+  color: goldenrod;
+  text-align: center;
+  border-radius: 30%;
+  border-style: solid;
+  border-color: brown;
+}
+
+.banner-text {
+  margin-top: 22px;
+}
+
+.banner-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-button {
+  position: relative;
+  top: 50%;
+  z-index: 1;
+  margin: 0 5px;
+  padding: 7px 0px 0px;
+  height: 40px;
+  width: 50px;
+  cursor: pointer;
+  background-image: url("./images/donutbutton.png");
+  background-size: 100% 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  font-size: 15%;
+}
+
+.main-page {
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkred;
+  background-color: chocolate;
+  border-style: solid;
+  border-color: brown;
+  flex-grow: 1;
+  margin-bottom: 8px;
+}
+
+/* .page-body {
+  margin-top: 30px;
+} */
+
+.menu-body {
+  display: flex;
+  align-items: center;
+}
+
+.menu-image {
+  border-style: solid;
+  max-height: 150px;
+  max-width: 90px;
+}
+
+#content {
+  margin: 8px 8px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.disclaimer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkred;
+  background-color: chocolate;
+  border-style: solid;
+  border-color: brown;
+  text-align: center;
+  /* margin-bottom: 8px; */
+}
+
+.credit-page {
+  display: flex;
+  flex-direction: column;
+}
